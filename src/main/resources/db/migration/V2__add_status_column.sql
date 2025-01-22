@@ -1,0 +1,2 @@
+ALTER TABLE entities
+    ADD COLUMN status VARCHAR(50) DEFAULT 'ACTIVE';
