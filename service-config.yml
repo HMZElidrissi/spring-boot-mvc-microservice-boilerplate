@@ -1,0 +1,26 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/database_name
+    driver-class-name: org.postgresql.Driver
+    username: username
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+    locations: classpath:db/migration
+    user: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
