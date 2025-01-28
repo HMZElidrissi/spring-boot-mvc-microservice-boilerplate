@@ -18,7 +18,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
         @Info(
             title = "Spring Boot MVC Microservice Boilerplate",
             version = "v1",
-            description = "Ths is a boilerplate for creating a Spring Boot MVC microservice",
+            description = "This is a boilerplate for creating a Spring Boot MVC microservice",
             contact = @Contact(name = "Hamza El Idrissi", url = "https://hmzelidrissi.ma"),
             license = @License(name = "MIT License", url = "https://opensource.org/licenses/MIT"),
             termsOfService = "some terms of service"),

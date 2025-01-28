@@ -16,6 +16,7 @@ A modern, production-ready Spring Boot microservice boilerplate with best practi
 - **Spring Boot 3.4.1**
 - **Spring Web MVC**
 - **Spring Data JPA**
+- **Spring AOP**
 - **Flyway 11.2.0**
 - **Lombok 1.18.22**
 - **Mapstruct 1.6.3**
